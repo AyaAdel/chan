@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/gemeni/static/css/main.2ebe2dab.chunk.css",
-    "main.js": "/gemeni/static/js/main.003e94e2.chunk.js",
-    "main.js.map": "/gemeni/static/js/main.003e94e2.chunk.js.map",
-    "runtime-main.js": "/gemeni/static/js/runtime-main.b4b3cc9c.js",
-    "runtime-main.js.map": "/gemeni/static/js/runtime-main.b4b3cc9c.js.map",
-    "static/css/2.00a338ba.chunk.css": "/gemeni/static/css/2.00a338ba.chunk.css",
-    "static/js/2.94e8a236.chunk.js": "/gemeni/static/js/2.94e8a236.chunk.js",
-    "static/js/2.94e8a236.chunk.js.map": "/gemeni/static/js/2.94e8a236.chunk.js.map",
-    "index.html": "/gemeni/index.html",
-    "precache-manifest.f50e7aa32ef8695138a57a890809b2b8.js": "/gemeni/precache-manifest.f50e7aa32ef8695138a57a890809b2b8.js",
-    "service-worker.js": "/gemeni/service-worker.js",
-    "static/css/2.00a338ba.chunk.css.map": "/gemeni/static/css/2.00a338ba.chunk.css.map",
-    "static/css/main.2ebe2dab.chunk.css.map": "/gemeni/static/css/main.2ebe2dab.chunk.css.map",
-    "static/js/2.94e8a236.chunk.js.LICENSE.txt": "/gemeni/static/js/2.94e8a236.chunk.js.LICENSE.txt"
+    "main.css": "/chan/static/css/main.2ebe2dab.chunk.css",
+    "main.js": "/chan/static/js/main.3877529c.chunk.js",
+    "main.js.map": "/chan/static/js/main.3877529c.chunk.js.map",
+    "runtime-main.js": "/chan/static/js/runtime-main.9dbfcb5b.js",
+    "runtime-main.js.map": "/chan/static/js/runtime-main.9dbfcb5b.js.map",
+    "static/css/2.00a338ba.chunk.css": "/chan/static/css/2.00a338ba.chunk.css",
+    "static/js/2.4d445fe6.chunk.js": "/chan/static/js/2.4d445fe6.chunk.js",
+    "static/js/2.4d445fe6.chunk.js.map": "/chan/static/js/2.4d445fe6.chunk.js.map",
+    "index.html": "/chan/index.html",
+    "precache-manifest.1b94bd72f715e00b4410858e8f8df52f.js": "/chan/precache-manifest.1b94bd72f715e00b4410858e8f8df52f.js",
+    "service-worker.js": "/chan/service-worker.js",
+    "static/css/2.00a338ba.chunk.css.map": "/chan/static/css/2.00a338ba.chunk.css.map",
+    "static/css/main.2ebe2dab.chunk.css.map": "/chan/static/css/main.2ebe2dab.chunk.css.map",
+    "static/js/2.4d445fe6.chunk.js.LICENSE.txt": "/chan/static/js/2.4d445fe6.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.b4b3cc9c.js",
+    "static/js/runtime-main.9dbfcb5b.js",
     "static/css/2.00a338ba.chunk.css",
-    "static/js/2.94e8a236.chunk.js",
+    "static/js/2.4d445fe6.chunk.js",
     "static/css/main.2ebe2dab.chunk.css",
-    "static/js/main.003e94e2.chunk.js"
+    "static/js/main.3877529c.chunk.js"
   ]
 }
