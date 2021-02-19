@@ -97,7 +97,7 @@ function LandingHeader() {
           </>
         </div>
         <div className="navbar-brand">
-          <a href="/organization">Gemini</a>
+          <a href="/">Gemini</a>
         </div>
         <div className="nav-right">
           <Dropdown overlay={menu} placement="bottomCenter" arrow>

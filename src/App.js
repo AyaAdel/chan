@@ -50,10 +50,10 @@ function App() {
       </MetaTags> */}
       <Router>
         <Switch>
-          <Route path="/" exact component={Landing} />
+          <Route path="/organization" exact component={Landing} />
           <Route path={['/terms', '/signup/terms']} exact component={ProcessStudio} />
           <Route path="/processstudio" exact component={ProcessStudio1} />
-          <Route path="/organization" exact component={Organization} />
+          <Route path="/" exact component={Organization} />
           <Route path="/organizationsettings" exact component={OrganizationSettings} />
           <Route path="/adminteam" exact component={AdminTeams} />
           <Route path="/adminpermission" exact component={AdminPermissions} />
