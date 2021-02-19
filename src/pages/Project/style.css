@@ -1,0 +1,51 @@
+/* Project */
+.project-page .ant-layout-content {
+  overflow: hidden;
+}
+
+.project-page .project-wrapper {
+  display: flex;
+}
+
+.project-page .project-content {
+  width: 100%;
+  padding: 15px;
+}
+
+.project-page .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn,
+.project-page .ant-tabs-tab:hover,
+.project-page .ant-tabs-tab-btn:active,
+.project-page .ant-tabs-tab-remove:active {
+  color: #84ba3f;
+}
+
+.project-page .ant-tabs-ink-bar {
+  background: #84ba3f;
+}
+
+.project-page .ant-menu-item-group-title {
+  padding: 15px !important;
+}
+
+.project-page .project-container {
+  padding-top: 70px;
+}
+
+/* Media Query */
+@media (max-width: 991px) {
+  .project-page .project-secondary-sidebar .ant-layout-sider-children {
+    height: calc(100vh - 116px);
+    overflow-y: auto;
+  }
+}
+
+@media (max-width: 767px) {
+  .project-page .project-secondary-sidebar .ant-layout-sider-children {
+    /* height: calc(100vh - 210px); */
+    overflow-y: auto;
+  }
+
+  .project-page .project-container {
+    padding-top: 60px;
+  }
+}

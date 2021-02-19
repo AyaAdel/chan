@@ -1,0 +1,37 @@
+/* Admin Sidebar */
+.admin-setting .anticon {
+  vertical-align: middle;
+}
+
+.admin-setting .ant-menu-item-group-list .ant-menu-item:hover,
+.admin-setting .ant-menu-item-selected {
+  background-color: #e4f2d2;
+}
+
+.admin-setting .ant-menu-item-selected a,
+.admin-setting .ant-menu-item-selected:hover a:hover,
+.admin-setting .ant-menu-item a:hover {
+  color: #000000d9;
+}
+
+.admin-setting h4 {
+  margin-bottom: 0;
+}
+
+.admin-setting .ant-menu-item-group-title {
+  padding: 5px 15px;
+  color: #20222e;
+  font-weight: 600;
+}
+
+.admin-setting .ant-menu-item.ant-menu-item-only-child {
+  margin: 0;
+}
+
+.admin-setting .ant-menu-item {
+  height: 45px;
+}
+
+.main-sidebar .ant-menu-inline .ant-menu-item {
+  padding: 24px;
+}

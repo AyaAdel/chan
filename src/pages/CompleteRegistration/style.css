@@ -1,0 +1,31 @@
+/* Complete Registration */
+#root .complete-registration .content {
+  height: auto;
+}
+
+.complete-registration .ant-input-password {
+  height: 45px;
+  padding: 0;
+}
+
+.complete-registration .ant-input-password input {
+  height: 43px;
+  margin-right: 0;
+  padding-left: 11px;
+  border: 0;
+}
+
+.complete-registration .ant-input-suffix {
+  margin-left: 0;
+  padding: 0 10px;
+}
+
+.complete-registration .anticon {
+  color: #84ba3f;
+}
+
+.complete-registration .ant-input-password:hover,
+.complete-registration .ant-input-password:active,
+.complete-registration .ant-input-password:focus {
+  border-color: #84ba3f;
+}

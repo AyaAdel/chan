@@ -1,0 +1,30 @@
+.main-sidebar .ant-menu-item-selected {
+  background: rgb(2 2 2 / 0.2);
+}
+.main-sidebar .ant-menu-inline .ant-menu-item::after {
+  left: 0;
+  right: inherit;
+}
+.main-sidebar .ant-menu-inline .ant-menu-item,
+.main-sidebar .ant-menu-item a {
+  color: rgba(255, 255, 255, 0.8);
+}
+.main-sidebar .ant-layout-sider-trigger {
+  background-color: #1890ff;
+}
+.main-sidebar .ant-menu-inline-collapsed-noicon {
+  color: rgba(255, 255, 255, 0.8);
+}
+.main-sidebar .ant-menu-item-group-title {
+  padding: 20px 24px;
+  color: #fff;
+  font-weight: 600;
+}
+
+.organization-sidebar .ant-menu-inline .ant-menu-item.ant-menu-item-only-child {
+  padding-left: 24px !important;
+}
+
+.organization-setting-sidebar .organization-settings-btn {
+  margin-left: 10px;
+}

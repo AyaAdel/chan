@@ -1,0 +1,13 @@
+/* Organization Sidebar */
+.organization-sidebar .anticon {
+  vertical-align: middle;
+}
+
+.organization-sidebar .ant-menu-item:hover,
+.organization-sidebar .ant-menu-item.ant-menu-item-selected:hover {
+  background-color: #e4f2d2;
+}
+
+.organization-sidebar .ant-menu-item.ant-menu-item-selected a {
+  color: #000000d9;
+}

@@ -1,0 +1,18 @@
+/* Project Settings Secondary Sidebar */
+.project-settings-secondary-sidebar .ant-menu {
+  display: block;
+}
+
+.project-settings-secondary-sidebar h3 {
+  margin: 0;
+  padding: 15px;
+  font-size: 18px;
+}
+
+.project-settings-secondary-sidebar .heading {
+  padding: 0 15px;
+}
+
+.project-settings-secondary-sidebar aside.ant-layout-sider {
+  overflow-y: hidden;
+}

@@ -1,0 +1,16 @@
+/* Process Studio */
+#root .terms {
+  height: calc(100vh - 70px);
+  overflow: auto;
+}
+
+/* Media Query */
+@media (max-width: 767px) {
+  #root .terms {
+    height: auto;
+  }
+
+  #root .terms {
+    padding: 0;
+  }
+}

@@ -1,0 +1,11 @@
+/* Process Studio 1 */
+.create-organization.process-studio-done {
+  display: block;
+}
+
+/* Media Query */
+@media (max-width: 767px) {
+  .process-studio-done.process-studio {
+    padding: 0;
+  }
+}

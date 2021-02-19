@@ -1,0 +1,63 @@
+/* Organization Permissions */
+.organization-permissions .ant-layout-content {
+  overflow-y: hidden;
+}
+
+.organization-permissions .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn,
+.organization-permissions .ant-tabs-tab:hover,
+.organization-permissions .ant-tabs-tab-btn:active {
+  color: #84ba3f;
+}
+
+.organization-permissions .ant-tabs-ink-bar {
+  background-color: #84ba3f;
+}
+
+.organization-permissions .title {
+  font-weight: 700;
+}
+
+.organization-permissions .count-team {
+  width: 25px;
+  height: 25px;
+  margin-left: 10px;
+  background-color: #f0f2f5;
+  border-radius: 50%;
+  font-size: 14px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.organization-permissions .members-content {
+  display: flex;
+  align-items: center;
+}
+
+.organization-permissions .users-count {
+  margin: 0 5px;
+}
+
+.organization-permissions .assign-btn .ant-btn {
+  cursor: pointer;
+}
+
+.organization-permissions .assign-permission {
+  margin-left: 10px;
+}
+
+.organization-permissions .permissions-title {
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+/* Media Query */
+@media (max-width: 1170px) {
+  .organization-permissions .assign-btn .ant-btn {
+    display: block;
+  }
+
+  .organization-permissions .assign-permission {
+    margin: 5px 0 0;
+  }
+}

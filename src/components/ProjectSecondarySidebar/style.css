@@ -1,0 +1,113 @@
+/* ProjectSecondarySidebar */
+.project-secondary-sidebar h5 {
+  padding: 0 15px;
+}
+
+.project-secondary-sidebar .ant-tree-treenode {
+  padding: 5px;
+}
+
+.project-secondary-sidebar .ant-tree-list {
+  margin-bottom: 15px;
+}
+
+.project-secondary-sidebar .heading {
+  padding: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.project-secondary-sidebar .img-wrapper {
+  margin-right: 5px;
+}
+
+.project-secondary-sidebar .img-wrapper img {
+  width: 16px;
+}
+
+.project-secondary-sidebar h4 {
+  margin: 0;
+  font-size: 16px;
+}
+
+.project-secondary-sidebar .ant-tree-list {
+  padding: 0 15px;
+}
+
+.project-secondary-sidebar .ant-layout-sider-children {
+  height: auto;
+  background-color: #fff;
+}
+
+.project-secondary-sidebar .ant-menu-item.sidebar-footer-btn .back-sidebar {
+  position: relative;
+  z-index: 3;
+  width: 50px;
+  height: 100%;
+  background-color: #ccc;
+  border-color: #ccc;
+  border-radius: 0;
+  display: block;
+}
+
+.project-secondary-sidebar .ant-menu-item.sidebar-footer-btn .back-sidebar:hover {
+  background-color: #84ba3f;
+  border-color: #84ba3f;
+}
+
+.project-secondary-sidebar .back-sidebar span {
+  margin: 0;
+  font-size: 16px;
+}
+
+.project-secondary-sidebar .sidebar-menu-fixed .back-sidebar svg path,
+.project-secondary-sidebar .sidebar-menu-fixed .back-sidebar:hover svg path,
+.project-secondary-sidebar .sidebar-menu-fixed .project-setting-btn svg path {
+  fill: #000;
+}
+
+.project-secondary-sidebar .ant-menu,
+.project-secondary-sidebar .ant-layout-sider-trigger {
+  display: none;
+}
+
+.project-page .project-sidebar {
+  display: block !important;
+}
+
+.project-secondary-sidebar .sidebar-bottom .ant-menu-item.sidebar-footer-btn {
+  background-color: #ddd;
+}
+
+.project-secondary-sidebar .sidebar-bottom .ant-menu-item.sidebar-footer-btn:hover .project-setting-btn span {
+  color: #fff;
+}
+
+.project-secondary-sidebar .ant-menu-item.sidebar-footer-btn .project-setting-btn {
+  background-color: transparent;
+  color: #000;
+  border-radius: 0;
+  display: flex;
+  align-items: center;
+}
+
+.project-secondary-sidebar .project-setting-btn .anticon {
+  font-size: 16px;
+}
+
+.project-secondary-sidebar .sidebar-footer-btn .btn span {
+  margin-left: 0;
+}
+
+/* Media Query */
+@media (max-width: 991px) {
+  .project-secondary-wrapper .ant-layout-sider.ant-layout-sider {
+    overflow-y: hidden;
+    margin-top: 70px;
+  }
+
+  .project-secondary-sidebar .ant-menu,
+  .project-secondary-sidebar .ant-layout-sider-trigger {
+    display: block;
+  }
+}

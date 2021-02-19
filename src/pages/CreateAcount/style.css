@@ -1,0 +1,68 @@
+/* Create Account */
+.create-account h2 {
+  font-size: 28px;
+}
+
+.create-account .account-pannel .navbar-brand,
+.create-account h2 {
+  margin-bottom: 20px;
+}
+
+.create-account form,
+.ant-form-item-control {
+  width: 100%;
+}
+
+.create-account .ant-form-item {
+  width: 100%;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.create-account label {
+  font-weight: 600;
+}
+
+.create-account input,
+.create-account button {
+  height: 45px;
+}
+
+.create-account input:hover,
+.create-account input:active,
+.create-account input:focus {
+  border-color: #84ba3f;
+}
+
+.create-account .main-btn {
+  width: 180px;
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.create-account .confirm-btn {
+  margin-bottom: 0;
+}
+
+.create-account .confirm-btn .ant-form-item-control {
+  align-items: flex-end;
+}
+
+/* Media Query */
+@media (max-width: 767px) {
+  .create-account h2 {
+    font-size: 20px;
+  }
+
+  .create-account button {
+    width: 140px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 575px) {
+  .create-account .content {
+    width: 90%;
+    margin: 0 auto;
+  }
+}

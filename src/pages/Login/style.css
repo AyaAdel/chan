@@ -1,0 +1,19 @@
+/* Login */
+#root .login div.content {
+  height: calc(100vh - 70px);
+}
+
+.login .forgot-password {
+  text-align: right;
+}
+
+.login button.main-btn {
+  margin-top: 0;
+}
+
+/* Media Query */
+@media (max-width: 767px) {
+  #root .login div.content {
+    height: auto;
+  }
+}

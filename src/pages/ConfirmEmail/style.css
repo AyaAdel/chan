@@ -1,0 +1,30 @@
+/* Confirm Email */
+.confirm-email .card.process-card {
+  margin: 0;
+}
+
+.confirm-email .process-card h2 {
+  font-size: 28px;
+  line-height: 1.1;
+  margin: 50px 0 30px;
+}
+
+.confirm-email .process-content .process-description {
+  margin-top: 0;
+}
+
+/* Media Query */
+@media (max-width: 767px) {
+  .confirm-email .card.process-card {
+    width: 90%;
+  }
+
+  .confirm-email .process-card h2 {
+    font-size: 20px;
+  }
+
+  .confirm-email .process-content .process-description {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}

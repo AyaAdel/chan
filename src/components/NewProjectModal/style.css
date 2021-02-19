@@ -1,0 +1,9 @@
+/* New Project Modal */
+.new-project-modal {
+  padding-bottom: 0;
+}
+
+.new-project-modal .ant-modal-body {
+  max-height: calc(100vh - 225px);
+  overflow-y: auto;
+}

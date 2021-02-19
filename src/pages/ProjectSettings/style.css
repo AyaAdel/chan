@@ -1,0 +1,32 @@
+/* Project Settings */
+.project-settings .main-sidebar .sidebar-menu-fixed.ant-menu-inline-collapsed .ant-menu-item.sidebar-footer-btn {
+  display: none;
+}
+
+.project-settings .project-settings-container {
+  padding-top: 70px;
+  display: flex;
+}
+
+.project-settings .project-settings-content {
+  padding: 15px;
+}
+
+.project-settings .main-sidebar .ant-menu-inline .sidebar-footer-btn {
+  padding: 0 !important;
+}
+
+.project-settings .ant-menu-item.sidebar-footer-btn a {
+  text-align: center;
+}
+
+.project-settings .sidebar-footer-btn .btn span {
+  margin: 0;
+}
+
+/* Media Query */
+@media (max-width: 767px) {
+  .project-settings .project-settings-container {
+    padding-top: 60px;
+  }
+}

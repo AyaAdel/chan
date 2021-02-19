@@ -1,0 +1,16 @@
+/* Admin Permission */
+.ant-checkbox-wrapper {
+  display: block;
+}
+.ant-checkbox-wrapper + .ant-checkbox-wrapper {
+  margin-left: 0px;
+  margin-top: 10px;
+}
+
+.admin-permission .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+  color: #84ba3f;
+}
+
+.admin-permission .ant-tabs-ink-bar {
+  background-color: #84ba3f;
+}
