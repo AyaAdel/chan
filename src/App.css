@@ -23,6 +23,7 @@
   --success: #28a745;
   --info: #17a2b8;
   --warning: #ffc107;
+  --vh: 640px;
   --danger: #dc3545;
   --light: #f8f9fa;
   --dark: #343a40;
@@ -35,6 +36,7 @@
     sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
 }
+
 *,
 ::after,
 ::before {
@@ -11191,4 +11193,8 @@ button:hover,
 ::-webkit-scrollbar-thumb {
   background-color: #999;
   border-radius: 30px;
+}
+
+.organization .main-sidebar-org.ant-menu-item-group {
+  height: calc(100% * 110px);
 }

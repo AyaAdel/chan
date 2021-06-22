@@ -43,6 +43,16 @@ import ProjectSettingsLocks from './pages/ProjectSettingsLocks';
 import './App.css';
 
 function App() {
+  function getHeight() {
+    document.getElementsByClassName('ant-menu-item-group')[0].style.height =
+      document.getElementsByClassName('sidebar-menu-fixed')[0].clientHeight -
+      document.querySelector('.sidebar-bottom').clientHeight +
+      'px';
+  }
+
+  window.onload = () => getHeight();
+  window.onresize = () => getHeight();
+
   return (
     <>
       {/* <MetaTags>
